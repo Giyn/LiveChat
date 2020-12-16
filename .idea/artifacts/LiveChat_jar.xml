@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="LiveChat:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/LiveChat_jar</output-path>
+    <root id="archive" name="LiveChat.jar">
+      <element id="directory" name="META-INF">
+        <element id="file-copy" path="$PROJECT_DIR$/lib/META-INF/MANIFEST.MF" />
+      </element>
+      <element id="module-output" name="LiveChat" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/lib/mysql-connector-java-8.0.21.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/lib/commons-codec-1.15/commons-codec-1.15.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/lib/jlayer-1.0.1.jar" path-in-jar="/" />
+    </root>
+  </artifact>
+</component>
