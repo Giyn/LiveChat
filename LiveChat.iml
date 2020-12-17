@@ -10,7 +10,7 @@
     <orderEntry type="module-library" exported="">
       <library>
         <CLASSES>
-          <root url="jar://$MODULE_DIR$/lib/commons-codec-1.15/commons-codec-1.15.jar!/" />
+          <root url="jar://$MODULE_DIR$/lib/mysql-connector-java-8.0.21.jar!/" />
         </CLASSES>
         <JAVADOC />
         <SOURCES />
@@ -19,7 +19,16 @@
     <orderEntry type="module-library" exported="">
       <library>
         <CLASSES>
-          <root url="jar://$MODULE_DIR$/lib/mysql-connector-java-8.0.21.jar!/" />
+          <root url="jar://$MODULE_DIR$/lib/protobuf-java-3.11.4.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" exported="">
+      <library>
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/lib/commons-codec-1.15.jar!/" />
         </CLASSES>
         <JAVADOC />
         <SOURCES />
