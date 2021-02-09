@@ -1,2 +1,2 @@
 # LiveChat
-:two_men_holding_hands: 基于数据加密算法的即时聊天系统
+:two_men_holding_hands: 本项目基于 Java 的 Swing 包实现了一个带图形用户界面的基于数据加密算法的即时聊天系统。实现了用户登录及验证、在线聊天、好友管理、文件传输、聊天记录管理和数据传输加密等功能。
