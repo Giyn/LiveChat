@@ -1,9 +1,12 @@
 # LiveChat
+
+## :spiral_notepad: Introduction
+
 :two_men_holding_hands: 本项目基于 Java 的 Swing 包实现了一个带图形用户界面的基于数据加密算法的即时聊天系统。实现了用户登录及验证、在线聊天、好友管理、文件传输、聊天记录管理和数据传输加密等功能。
 
 编程语言：Java；
 
-JDK版本：1.8.0；
+JDK 版本：1.8.0；
 
 开发工具：IntelliJ IDEA（版本：2020.2.1）；
 
@@ -13,7 +16,11 @@ JDK版本：1.8.0；
 
 程序架构：C/S 架构；
 
-## Features
+## :point_right: Instruction
+
+先运行 `LiveChat/Server.java` 文件，然后运行 `LiveChat/Client.java` 文件（支持多开）即可。
+
+## :black_nib: DemandAnalysis
 
 **需求分析图：**
 
@@ -25,7 +32,7 @@ JDK版本：1.8.0；
 
 2. 登录验证：
 
-  用户点击登录按钮后，后台系统接收到用户输入的信息后，在数据库的用户信息表进行查询，若验证成功则成功进入系统主界面；若验证失败则返回对应的错误信息。
+   用户点击登录按钮后，后台系统接收到用户输入的信息后，在数据库的用户信息表进行查询，若验证成功则成功进入系统主界面；若验证失败则返回对应的错误信息。
 
 3. 聊天功能：
 
@@ -58,3 +65,35 @@ JDK版本：1.8.0；
 **软件功能架构图：**
 
 ![787b84e2e7bd4f73aff4168bb9853f6.png](https://i.loli.net/2021/04/18/hFIEMrJGacHPpLg.png)
+
+## :heart_decoration: Features
+
+1. **用户登录**
+
+<img src="https://i.loli.net/2021/04/22/Lm4fFxzw65BqWdD.png" alt="970630b8fbcc5b613e9b646959b9338.png" style="zoom:80%;" />
+
+2. **好友列表**
+
+<img src="https://i.loli.net/2021/04/22/dfVlPwtXQUKmgry.png" alt="19ba3eed401dfc9cee04388c90c842d.png" style="zoom: 80%;" />
+
+3. **添加好友**
+
+![29cfb4ff2dc861eb0d15235f8d5e6d6.png](https://i.loli.net/2021/04/22/ec6LQRZbnuU1Fv7.png)
+
+![eac529f12823de7aa536fbd9b3e9508.png](https://i.loli.net/2021/04/22/39ykeEdBrwtLKm8.png)
+
+4. **好友申请**
+
+<img src="https://i.loli.net/2021/04/22/WFKe8PgpD3OIXnw.png" alt="c75ddf82588d7bc086c2a0359b87cfb.png" style="zoom:67%;" />
+
+<img src="https://i.loli.net/2021/04/22/7LcaWM6NoqmSZtY.png" alt="98d57789d97379138e653b703dd38f3.png" style="zoom:80%;" />
+
+5. **聊天功能**
+
+<img src="https://i.loli.net/2021/04/22/vAX5r94nzae2Bfq.png" alt="ecda00ff487bc920d1eb5b78bb96f62.png" style="zoom: 67%;" />
+
+6. **发送图片/文件**
+
+<img src="https://i.loli.net/2021/04/22/PpcTgBZ4CGkv1Jx.png" alt="7637c47cabe231d6d3ea3fcd4f18529.png" style="zoom:80%;" />
+
+<img src="https://i.loli.net/2021/04/22/3SgntIvr5xZGhJU.png" alt="1ee8c5f6189db34bced813f01478e6e.png" style="zoom:80%;" />
